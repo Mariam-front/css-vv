@@ -1,0 +1,176 @@
+body {
+  background-color: rgb(246, 231, 235);
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+/* font: normal 16px/1.5 "Roboto", sans-serif; */
+.firstimg {
+  width: 800px
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info {
+    color: #343436;
+    font-style: italic;
+    font-size: 16px;
+    /* text-transform: capitalize; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 10px; */
+}
+.box {
+    background-color: rgb(222, 166, 166);
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border: rgb(215, 186, 186) 5px solid;
+    margin: 20px;
+    color: #343436;
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    color: rgb(83, 53, 57);
+    background-color: rgb(241, 216, 216);
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.tabl {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 90%;
+    margin: 30px auto;      
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    background-color: rgb(222, 166, 166);
+    padding: 30px;
+    border: rgb(173, 152, 152) 4px solid;  
+}
+.tabl td {
+    padding: 10px;
+   
+    background-color: rgb(222, 166, 166);
+    color: #343436;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    border: rgb(130, 107, 107) 5px solid;
+    text-align: center;
+}
+
+.tabl thead th {
+    padding: 10px;
+    background-color: rgb(222, 166, 166);
+    color: #050505;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    border: rgb(120, 95, 95) 5px solid;
+    text-align: center;
+}
+
+a {
+    color: #4f3131;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(222, 166, 166);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+
+}
+a:hover {
+    color: #0f141e;
+    text-decoration: underline;
+}
+h2 {
+    color: #341b1e;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+h3 li{
+    list-style:circle;
+    list-style-position:inside;
+    color: #47272b;
+    font-size: 20px;
+    
+}
+.group label {
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #341b1e;
+}
+.group input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #563d40;
+    padding: 15px;
+    box-shadow: #bda6a9 0px 1px 0px;
+    outline: none;
+    font-family: inherit;
+}
+.group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #563d40;
+    padding: 15px;
+    box-shadow: #bda6a9 0px 1px 0px;
+    outline: none;
+    font-family: inherit;
+}
+.cont {
+    margin-bottom: 20px;
+    width: 70%;
+}
+.btn {
+    color: #1a080a;
+    padding: 15px 30px;
+    background-color: rgb(189, 134, 134);
+    border: none;
+    font: inherits;
+    cursor: pointer;
+    box-shadow: #343436 0px 1px 0px;
+}
+.btn:hover {
+    opacity: 0.8;
+    background-color: rgb(134, 69, 69);
+}
+/* .pos {
+    position: relative;
+    border: 4px solid rgb(189, 134, 134);
+    margin-top: 30px;
+    padding: 20px;
+    height: 300px;
+}
+.bo {
+    position: fixed;
+    /* top: 50px; */
+    top: 50px;
+    right: 50px;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(58, 8, 8);
+} */
+.info {
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+   display: block;
+   text-align: center;
+}
